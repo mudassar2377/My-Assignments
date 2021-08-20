@@ -21,7 +21,7 @@
 		background-color: green
 		}
 
-	/* This is the styling applied to */
+	/* This is the styling applied to first box heading "Chicken" */
 	#heading1{
 		float: right;	
 		font-size: 24px;
@@ -30,6 +30,7 @@
 		border: 5px solid black;
 		background-color: green
 		}
+	/* This is the styling applied to Second box heading "Beef" */	
 	#heading2{
 		float: right;	
 		font-size: 24px;
@@ -38,6 +39,7 @@
 		border: 5px solid black;
 		background-color: green
 		}
+	/* This is the styling applied to third box heading "Rice" */
 	#heading3{
 		float: right;	
 		font-size: 24px;
@@ -46,6 +48,7 @@
 		border: 5px solid black;
 		background-color: green;
 		}
+	/* This is the styling for first box whose heading is "Chicken" */
 	#Section1{
 		background-color: grey;
 		width: 33%;
@@ -53,6 +56,8 @@
 		margin: 2px;
 		border: 5px solid black;
 		}
+	/*P1, P2 and P3 are the paragraphs written under the headings of "Chicken", "Beef" and "Rice". The purpose of using clear: right is 
+	that there should be no text behind the heading*/	
 	#p1{
 		clear: right;
 		}
@@ -62,6 +67,7 @@
 	#p3{
 		clear: right;
 		}
+	/* This is the styling for Second box whose heading is "Beef" */	
 	#Section2{
 		background-color: grey;
 		width: 33%;
@@ -72,6 +78,7 @@
 		left: 33.33%;
 		border: 5px solid black;
 		}
+	/* This is the styling for Third box whose heading is "Rice" */	
 	#Section3{
 		background-color: grey;
 		width: 33%;
@@ -84,7 +91,9 @@
 		}
 }
 
+/* This Part is for Tablets */
 @media(min-width: 768px) and (max-width: 971px){
+	/* This is the styling applied to first heading "Our Menu" */
 	h1{
 		font-size: 24px;
 		font-weight: bold;
@@ -93,6 +102,7 @@
 		border: 5px solid black;
 		background-color: green
 		}
+	/* This is the styling applied to first box heading "Chicken" */	
 	#heading1{
 		float: right;	
 		font-size: 24px;
@@ -101,6 +111,7 @@
 		border: 5px solid black;
 		background-color: green
 		}
+	/* This is the styling applied to Second box heading "Beef" */		
 	#heading2{
 		float: right;	
 		font-size: 24px;
@@ -109,6 +120,7 @@
 		border: 5px solid black;
 		background-color: green
 		}
+	/* This is the styling applied to third box heading "Rice" */	
 	#heading3{
 		float: right;	
 		font-size: 24px;
@@ -117,6 +129,7 @@
 		border: 5px solid black;
 		background-color: green;
 		}
+	/* This is the styling for first box whose heading is "Chicken" */	
 	#Section1{
 		background-color: grey;
 		width: 49%;
@@ -124,6 +137,8 @@
 		margin: 2px;
 		border: 5px solid black;
 		}
+	/*P1, P2 and P3 are the paragraphs written under the headings of "Chicken", "Beef" and "Rice". The purpose of using clear: right is 
+	that there should be no text behind the heading*/	
 	#p1{
 		clear: right;
 		}
@@ -133,6 +148,7 @@
 	#p3{
 		clear: right;
 		}
+	/* This is the styling for second box whose heading is "Beef" */	
 	#Section2{
 		background-color: grey;
 		width: 49%;
@@ -143,6 +159,7 @@
 		left: 50%;
 		border: 5px solid black;
 		}
+	/* This is the styling for Third box whose heading is "Rice" */	
 	#Section3{
 		background-color: grey;
 		width: 99%;
@@ -151,21 +168,9 @@
 		border: 5px solid black;
 		}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* This Part is for Mobiles */
 @media(max-width: 767px){
+	/* This is the styling applied to first heading "Our Menu" */
 	h1{
 		font-size: 24px;
 		font-weight: bold;
@@ -174,6 +179,7 @@
 		border: 5px solid black;
 		background-color: green
 		}
+	/* This is the styling applied to first box heading "Chicken" */
 	#heading1{
 		float: right;	
 		font-size: 24px;
@@ -182,6 +188,7 @@
 		border: 5px solid black;
 		background-color: green
 		}
+	/* This is the styling applied to Second box heading "Beef" */
 	#heading2{
 		float: right;	
 		font-size: 24px;
@@ -190,6 +197,7 @@
 		border: 5px solid black;
 		background-color: green
 		}
+	/* This is the styling applied to third box heading "Rice" */
 	#heading3{
 		float: right;	
 		font-size: 24px;
@@ -198,12 +206,15 @@
 		border: 5px solid black;
 		background-color: green;
 		}
+	/* This is the styling for first box whose heading is "Chicken" */
 	#Section1{
 		background-color: grey;
 		padding: 5px;
 		margin: 2px;
 		border: 5px solid black;
 		}
+	/*P1, P2 and P3 are the paragraphs written under the headings of "Chicken", "Beef" and "Rice". The purpose of using clear: right is 
+	that there should be no text behind the heading*/
 	#p1{
 		clear: right;
 		}
@@ -213,12 +224,14 @@
 	#p3{
 		clear: right;
 		}
+	/* This is the styling for second box whose heading is "Beef" */
 	#Section2{
 		background-color: grey;
 		padding: 5px;
 		margin: 2px;
 		border: 5px solid black;
 		}
+	/* This is the styling for Third box whose heading is "Rice" */	
 	#Section3{
 		background-color: grey;
 		padding: 5px;
