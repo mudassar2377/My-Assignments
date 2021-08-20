@@ -1,4 +1,4 @@
-/* The universal selector and MainPart was to be applied on all three devices so they are not included in media query */
+/* The universal selector and MainPart was to be applied on all three devices so they are not included in media query. */
 
 *{
 		box-sizing: border-box;
