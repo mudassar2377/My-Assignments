@@ -9,7 +9,7 @@
 		}
 
 /* This Part is for desktop */
-@media(min-width: 972px)
+@media(min-width: 973px)
 {
 	/* This is the styling applied to first heading "Our Menu" */
 	h1{
@@ -92,7 +92,7 @@
 }
 
 /* This Part is for Tablets */
-@media(min-width: 768px) and (max-width: 971px){
+@media(min-width: 768px) and (max-width: 972px){
 	/* This is the styling applied to first heading "Our Menu" */
 	h1{
 		font-size: 24px;
@@ -169,7 +169,7 @@
 		}
 }
 /* This Part is for Mobiles */
-@media(max-width: 767px){
+@media(max-width: 768px){
 	/* This is the styling applied to first heading "Our Menu" */
 	h1{
 		font-size: 24px;
