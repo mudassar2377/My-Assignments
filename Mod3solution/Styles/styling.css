@@ -1,10 +1,9 @@
 body{
 	font-family: 'Caveat', cursive;
+	background-color: lightblue;
 }
-@media(min-width: 992px){
-#navbarNav{
-	visibility: hidden;
-}
+#navback{
+	background-color: grey;
 }
 #mainheader{
 	background-color: grey;
@@ -27,16 +26,20 @@ body{
 #Section1{
 	background-color: grey;
 	font-size: 24px;
+	float: right;
+	margin: 5px;
 }
 #Section2{
 	background-color: grey;
 	font-size: 24px;
-	margin-top: 15px;
+	float: right;
+	margin: 5px;
 }
 #Section3{
 	background-color: grey;
 	font-size: 24px;
-	margin-top: 15px;
+	float: right;
+	margin: 5px;
 }
 #heading1{
 	font-size: 32px;
